@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #1F2937;
+
+}
+#form-section{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+#select-color{
+    border: none;
+    width: 60px;
+    height: 40px;
+    margin-right: 10px;
+    
+}
+option{
+    font-size: 18px; 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+}
+#form-section select{
+    margin-right: 10px;
+    background-color: #1F2937;
+    color: white;
+    padding: 11px;
+    border-radius: 5%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    
+}
+#get-color{
+    height: 40px;
+    margin-right: 10px;
+    padding: 5px 50px;
+    background-color: #3D4B60;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+#colors{  
+   
+    height: 414px;
+    width: 750px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+div{
+    display: block;
+}
+
+#colorNames {
+    height: 2.9em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #D5D4D8;
+    font-weight: 500;
+    font-size: .75em;
+}
+.column{
+    width: 150px;
+    height: 414px;
+    color: white;
+    line-height: 414px;
+    text-align: center;
+}
+#hex{
+    width: 750px;
+    height: 46px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    
+}
+#hexval{
+    width: 150px;
+    height: 46px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
